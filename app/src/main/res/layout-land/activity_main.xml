@@ -16,7 +16,7 @@
         <ImageView
             android:layout_width="70dp"
             android:layout_height="70dp"
-            android:src="@drawable/valorant_logo"/>
+            android:src="@drawable/Valorant_logo"/>
 
         <TextView
             android:text="VALORANT"
@@ -32,7 +32,8 @@
             android:hint="Cari senjata..."
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"/>
+            android:minHeight="48dp"
+            android:layout_marginTop="20dp"/>
     </LinearLayout>
 
     <!-- KANAN -->
@@ -48,12 +49,14 @@
             android:text="Cari"
             android:background="@drawable/button_style"
             android:textColor="@color/white"
+            android:minHeight="48dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
         <Button
             android:id="@+id/btnAZ"
             android:text="A-Z"
+            android:minHeight="48dp"
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
@@ -61,6 +64,7 @@
         <Button
             android:id="@+id/btnZA"
             android:text="Z-A"
+            android:minHeight="48dp"
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
@@ -68,6 +72,7 @@
         <Button
             android:id="@+id/btnLihat"
             android:text="Semua"
+            android:minHeight="48dp"
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
