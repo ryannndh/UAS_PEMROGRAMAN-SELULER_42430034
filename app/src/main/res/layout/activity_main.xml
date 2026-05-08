@@ -14,7 +14,7 @@
         <ImageView
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:src="@drawable/Valorant_logo"
+            android:src="@drawable/valorant_logo"
             android:layout_gravity="center"
             android:layout_marginBottom="10dp"/>
 
